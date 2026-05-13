@@ -1,0 +1,1906 @@
+
+{
+    "currentImage": {
+        "id": "a126189c-0ed0-4a71-b5db-b60c6881657c",
+        "displayId": "18",
+        "draftMode": false,
+        "documentType": "AG",
+        "lifeCycleStatus": "OPEN",
+        "progressStatus": "OPEN",
+        "progressStatusValidSince": "2026-05-07T10:32:43.761Z",
+        "externalSalesOrderRequestStatus": "NOT_STARTED",
+        "creditWorthinessStatus": "NOT_RELEVANT",
+        "consistencyStatus": "CONSISTENT",
+        "availabilityStatus": "CONFIRMATION_PENDING",
+        "transferStatus": "NOT_STARTED",
+        "documentLanguage": "he",
+        "documentDate": "2026-05-07",
+        "validityPeriod": {
+            "startDate": "2026-05-07",
+            "endDate": "2026-05-09"
+        },
+        "requestedFulfillmentPeriod": {
+            "startDateTime": "2026-05-07T10:32:43.743Z",
+            "endDateTime": "2026-05-08T10:32:43.743Z"
+        },
+        "adminData": {
+            "createdOn": "2026-05-07T10:32:43.761Z",
+            "createdBy": "81d0b8c8-16e4-11f1-9705-2967b1784c9f",
+            "updatedOn": "2026-05-07T10:35:07.301Z",
+            "updatedBy": "81d0b8c8-16e4-11f1-9705-2967b1784c9f"
+        },
+        "account": {
+            "partyId": "00163e92-2f26-1eda-8df8-4c793fd4c939",
+            "partyDisplayId": "2026505",
+            "type": "159",
+            "addressId": "20011518-0802-3816-5988-0a01010865f2",
+            "determinationMethod": "1"
+        },
+        "shipTo": {
+            "partyId": "00163e92-2f26-1eda-8df8-4c793fd4c939",
+            "partyDisplayId": "2026505",
+            "type": "159",
+            "addressId": "20011518-0802-3816-5989-0a01010880e4",
+            "determinationMethod": "5"
+        },
+        "billTo": {
+            "partyId": "00163e92-2f26-1eda-8df8-4c793fd4c939",
+            "partyDisplayId": "2026505",
+            "type": "159",
+            "addressId": "20011518-0802-3816-5988-0a01010865f2",
+            "determinationMethod": "5"
+        },
+        "owner": {
+            "partyId": "00163e96-06a0-1eda-88c6-833122b8940a",
+            "partyDisplayId": "8000000004",
+            "type": "167",
+            "addressId": "00163e96-06a0-1eda-88c6-833122b9540a",
+            "determinationMethod": "7"
+        },
+        "contactOfAccount": {
+            "partyId": "00163e92-2f26-1eda-8df8-4c793fd24939",
+            "partyDisplayId": "2026506",
+            "type": "147",
+            "addressId": "00163e92-2f26-1eda-8df8-5bc8855969a9",
+            "determinationMethod": "7"
+        },
+        "salesEmployee": {
+            "partyId": "019cb30d-ef8e-799a-a566-8731487ce71d",
+            "partyDisplayId": "8000000002",
+            "type": "167",
+            "addressId": "019cb30d-ef8e-799a-a566-9f31487ce71d",
+            "determinationMethod": "3"
+        },
+        "salesUnit": {
+            "partyId": "00163e96-06a0-1eda-889a-28de1995878b",
+            "partyDisplayId": "SO1000",
+            "type": "2174",
+            "addressId": "00163e96-06a0-1eda-889a-28de1992478b",
+            "determinationMethod": "6"
+        },
+        "businessArea": {
+            "salesOrganisationId": "00163e96-06a0-1eda-889a-28de1995878b",
+            "salesOrganisationDisplayId": "SO1000",
+            "salesOrganisationDeterminationMethod": "5",
+            "distributionChannel": "01",
+            "distributionChannelDeterminationMethod": "5",
+            "division": "00",
+            "divisionDeterminationMethod": "1",
+            "salesTerritoryDisplayId": "1",
+            "salesTerritoryId": "019daeca-6212-7000-9288-a87f6f8e72e9",
+            "salesTerritoryDeterminationMethod": "1"
+        },
+        "businessTerms": {
+            "probabilityPercent": 100,
+            "currency": "ILS",
+            "priceDate": "2026-05-07"
+        },
+        "items": [
+            {
+                "id": "e4a09223-d212-4c20-b288-d0599f53f086",
+                "typeCode": "PRODUCT",
+                "displayId": "100",
+                "itemType": "AGN",
+                "progressStatus": "OPEN",
+                "availabilityStatus": "CONFIRMATION_PENDING",
+                "description": "אולם / גן אירועים מעל 1000 איש",
+                "productData": {
+                    "productId": "019d636c-5040-7111-a815-5e693dc41c02",
+                    "productDisplayId": "411",
+                    "productQuantityMeasureUnit": "EA",
+                    "productCategoryId": "019d5dbe-1a94-7004-ba26-c5cecf68f329",
+                    "productCategoryDisplayId": "10",
+                    "originalProductId": "019d636c-5040-7111-a815-5e693dc41c02",
+                    "originalProductDisplayId": "411"
+                },
+                "businessTerms": {
+                    "probabilityPercent": 100,
+                    "currency": "ILS",
+                    "priceDate": "2026-05-07"
+                },
+                "adminData": {
+                    "createdOn": "2026-05-07T10:34:32.345Z",
+                    "createdBy": "81d0b8c8-16e4-11f1-9705-2967b1784c9f",
+                    "updatedOn": "2026-05-07T10:35:07.301Z",
+                    "updatedBy": "81d0b8c8-16e4-11f1-9705-2967b1784c9f"
+                },
+                "scheduleLines": [
+                    {
+                        "id": "f8cdadfa-d58f-4abf-9d4b-34460c93c7a8",
+                        "displayId": "1",
+                        "quantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "originalQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "period": {
+                            "startDateTime": "2026-05-07T10:32:43.743Z",
+                            "endDateTime": "2026-05-08T10:32:43.743Z"
+                        }
+                    }
+                ],
+                "priceElements": [
+                    {
+                        "id": "889df552-fa48-3f91-89b5-8698e5a648cf",
+                        "description": "List Price",
+                        "stepNumber": 10,
+                        "counter": 0,
+                        "conditionType": "7PR0",
+                        "categoryCode": "PRICES",
+                        "originCode": "AUTOMATIC",
+                        "rateAmount": {
+                            "content": 17748,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 17748,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": true,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "QUANTITY",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": true,
+                        "isRateNumeratorUpdateEnabled": true,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    },
+                    {
+                        "id": "70c0c584-6c58-3b89-b749-18bcd1632c0f",
+                        "description": "Total Product Net Value",
+                        "stepNumber": 130,
+                        "counter": 0,
+                        "categoryCode": "NONE",
+                        "originCode": "NONE",
+                        "rateAmount": {
+                            "content": 17748,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 17748,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": false,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "NONE",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": false,
+                        "isRateNumeratorUpdateEnabled": false,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    },
+                    {
+                        "id": "21553bf3-281a-3224-a124-e5d3423bf342",
+                        "description": "Total",
+                        "stepNumber": 180,
+                        "counter": 0,
+                        "categoryCode": "NONE",
+                        "originCode": "NONE",
+                        "rateAmount": {
+                            "content": 17748,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 17748,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": false,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "NONE",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": false,
+                        "isRateNumeratorUpdateEnabled": false,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    },
+                    {
+                        "id": "e28c4f23-2337-3c2c-948b-263c0dc21a91",
+                        "description": "Product Discounts",
+                        "stepNumber": 190,
+                        "counter": 0,
+                        "categoryCode": "NONE",
+                        "originCode": "NONE",
+                        "rateAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": false,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "NONE",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": false,
+                        "isRateNumeratorUpdateEnabled": false,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    },
+                    {
+                        "id": "3d71c352-3ee8-3c7c-a729-ceb740e325a6",
+                        "description": "Header Discounts",
+                        "stepNumber": 200,
+                        "counter": 0,
+                        "categoryCode": "NONE",
+                        "originCode": "NONE",
+                        "rateAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": false,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "NONE",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": false,
+                        "isRateNumeratorUpdateEnabled": false,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    },
+                    {
+                        "id": "2205cf6f-7f94-3aaf-81be-465fa114cb43",
+                        "description": "Total Discounts",
+                        "stepNumber": 210,
+                        "counter": 0,
+                        "categoryCode": "NONE",
+                        "originCode": "NONE",
+                        "rateAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": false,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "NONE",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": false,
+                        "isRateNumeratorUpdateEnabled": false,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    }
+                ],
+                "totalValues": {
+                    "netAmount": {
+                        "content": 17748,
+                        "currencyCode": "ILS"
+                    },
+                    "taxAmount": {
+                        "content": 0,
+                        "currencyCode": "ILS"
+                    },
+                    "grossAmount": {
+                        "content": 17748,
+                        "currencyCode": "ILS"
+                    },
+                    "netPrice": {
+                        "amount": {
+                            "content": 17748,
+                            "currencyCode": "ILS"
+                        },
+                        "baseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        }
+                    },
+                    "requestedQuantity": {
+                        "content": 1,
+                        "uomCode": "EA",
+                        "uomCodeDescription": null
+                    },
+                    "confirmedQuantity": {
+                        "content": 0,
+                        "uomCode": "EA",
+                        "uomCodeDescription": null
+                    }
+                },
+                "salesQuoteId": "a126189c-0ed0-4a71-b5db-b60c6881657c",
+                "quantity": {
+                    "content": 1,
+                    "uomCode": "EA",
+                    "uomCodeDescription": null
+                },
+                "referenceStatus": "NOT_STARTED"
+            },
+            {
+                "id": "bef412dd-4687-421d-ba07-56bb7cb9aea1",
+                "typeCode": "PRODUCT",
+                "displayId": "200",
+                "itemType": "AGN",
+                "progressStatus": "OPEN",
+                "availabilityStatus": "CONFIRMATION_PENDING",
+                "description": "אולם כנסים: עד 500 איש",
+                "productData": {
+                    "productId": "019d636c-514f-7228-a194-09fd8d497134",
+                    "productDisplayId": "384",
+                    "productQuantityMeasureUnit": "EA",
+                    "productCategoryId": "019d5dbe-3ebc-7004-ba26-e5cecf68f329",
+                    "productCategoryDisplayId": "11",
+                    "originalProductId": "019d636c-514f-7228-a194-09fd8d497134",
+                    "originalProductDisplayId": "384"
+                },
+                "businessTerms": {
+                    "probabilityPercent": 100,
+                    "currency": "ILS",
+                    "priceDate": "2026-05-07"
+                },
+                "adminData": {
+                    "createdOn": "2026-05-07T10:35:07.301Z",
+                    "createdBy": "81d0b8c8-16e4-11f1-9705-2967b1784c9f",
+                    "updatedOn": "2026-05-07T10:35:07.301Z",
+                    "updatedBy": "81d0b8c8-16e4-11f1-9705-2967b1784c9f"
+                },
+                "scheduleLines": [
+                    {
+                        "id": "ae29891b-c725-49f7-a581-c625c11584ac",
+                        "displayId": "1",
+                        "quantity": {
+                            "content": 0.5,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "originalQuantity": {
+                            "content": 0.5,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "period": {
+                            "startDateTime": "2026-05-07T10:32:43.743Z",
+                            "endDateTime": "2026-05-08T10:32:43.743Z"
+                        }
+                    }
+                ],
+                "priceElements": [
+                    {
+                        "id": "b63bbcdc-d79a-3e5d-94e3-81f3d936cb87",
+                        "description": "List Price",
+                        "stepNumber": 10,
+                        "counter": 0,
+                        "conditionType": "7PR0",
+                        "categoryCode": "PRICES",
+                        "originCode": "AUTOMATIC",
+                        "rateAmount": {
+                            "content": 8061,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 4030.5,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": true,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "QUANTITY",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": true,
+                        "isRateNumeratorUpdateEnabled": true,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    },
+                    {
+                        "id": "12ac2be7-695b-3394-97bf-538abcd94f3c",
+                        "description": "Total Product Net Value",
+                        "stepNumber": 130,
+                        "counter": 0,
+                        "categoryCode": "NONE",
+                        "originCode": "NONE",
+                        "rateAmount": {
+                            "content": 8061,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 4030.5,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": false,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "NONE",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": false,
+                        "isRateNumeratorUpdateEnabled": false,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    },
+                    {
+                        "id": "040eadce-95d0-3419-850b-6a83614f3cab",
+                        "description": "Total",
+                        "stepNumber": 180,
+                        "counter": 0,
+                        "categoryCode": "NONE",
+                        "originCode": "NONE",
+                        "rateAmount": {
+                            "content": 8061,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 4030.5,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": false,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "NONE",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": false,
+                        "isRateNumeratorUpdateEnabled": false,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    },
+                    {
+                        "id": "ebf9b7cd-9ac1-3627-b2f7-b68b5cefba2b",
+                        "description": "Product Discounts",
+                        "stepNumber": 190,
+                        "counter": 0,
+                        "categoryCode": "NONE",
+                        "originCode": "NONE",
+                        "rateAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": false,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "NONE",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": false,
+                        "isRateNumeratorUpdateEnabled": false,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    },
+                    {
+                        "id": "a87fd71c-78de-3c4c-b01e-bdb40c85ca0e",
+                        "description": "Header Discounts",
+                        "stepNumber": 200,
+                        "counter": 0,
+                        "categoryCode": "NONE",
+                        "originCode": "NONE",
+                        "rateAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": false,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "NONE",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": false,
+                        "isRateNumeratorUpdateEnabled": false,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    },
+                    {
+                        "id": "933e4863-ebc2-3f6b-8b83-80caf310d78b",
+                        "description": "Total Discounts",
+                        "stepNumber": 210,
+                        "counter": 0,
+                        "categoryCode": "NONE",
+                        "originCode": "NONE",
+                        "rateAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": false,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "NONE",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": false,
+                        "isRateNumeratorUpdateEnabled": false,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    }
+                ],
+                "totalValues": {
+                    "netAmount": {
+                        "content": 4030.5,
+                        "currencyCode": "ILS"
+                    },
+                    "taxAmount": {
+                        "content": 0,
+                        "currencyCode": "ILS"
+                    },
+                    "grossAmount": {
+                        "content": 4030.5,
+                        "currencyCode": "ILS"
+                    },
+                    "netPrice": {
+                        "amount": {
+                            "content": 8061,
+                            "currencyCode": "ILS"
+                        },
+                        "baseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        }
+                    },
+                    "requestedQuantity": {
+                        "content": 0.5,
+                        "uomCode": "EA",
+                        "uomCodeDescription": null
+                    },
+                    "confirmedQuantity": {
+                        "content": 0,
+                        "uomCode": "EA",
+                        "uomCodeDescription": null
+                    }
+                },
+                "salesQuoteId": "a126189c-0ed0-4a71-b5db-b60c6881657c",
+                "quantity": {
+                    "content": 0.5,
+                    "uomCode": "EA",
+                    "uomCodeDescription": null
+                },
+                "referenceStatus": "NOT_STARTED"
+            }
+        ],
+        "parties": [
+            {
+                "id": "3e04d425-56b4-4389-a7a1-6b0c6c99d8b8",
+                "partyId": "00163e92-2f26-1eda-8df8-4c793fd4c939",
+                "role": "1001",
+                "roleCategory": "1",
+                "isMain": true,
+                "partyDisplayId": "2026505",
+                "type": "159",
+                "addressId": "20011518-0802-3816-5988-0a01010865f2",
+                "determinationMethod": "1",
+                "isInternal": false
+            },
+            {
+                "id": "47862bac-685b-45d9-80d1-7963dc0f10eb",
+                "partyId": "00163e96-06a0-1eda-889a-28de1995878b",
+                "role": "44",
+                "roleCategory": "44",
+                "isMain": true,
+                "partyDisplayId": "SO1000",
+                "type": "2174",
+                "addressId": "00163e96-06a0-1eda-889a-28de1992478b",
+                "determinationMethod": "6",
+                "isInternal": false
+            },
+            {
+                "id": "5e8fe79e-59e6-40f4-b828-738a200e0e54",
+                "partyId": "00163e92-2f26-1eda-8df8-4c793fd4c939",
+                "role": "1005",
+                "roleCategory": "5",
+                "isMain": true,
+                "partyDisplayId": "2026505",
+                "type": "159",
+                "addressId": "20011518-0802-3816-5989-0a01010880e4",
+                "determinationMethod": "5",
+                "isInternal": false
+            },
+            {
+                "id": "9aea7779-be0b-42e5-9205-f9dd2ff212e4",
+                "partyId": "00163e96-06a0-1eda-889a-28de1995678b",
+                "role": "2",
+                "roleCategory": "2",
+                "isMain": true,
+                "partyDisplayId": "HQ1000",
+                "type": "2174",
+                "addressId": "00163e96-06a0-1eda-889a-28de1992278b",
+                "determinationMethod": "4",
+                "isInternal": false
+            },
+            {
+                "id": "394fd72f-0d1e-4c7e-b9d5-a74f62b59f5c",
+                "partyId": "00163e96-06a0-1eda-88c6-833122b8940a",
+                "role": "39",
+                "roleCategory": "39",
+                "isMain": true,
+                "partyDisplayId": "8000000004",
+                "type": "167",
+                "addressId": "00163e96-06a0-1eda-88c6-833122b9540a",
+                "determinationMethod": "7",
+                "isInternal": false
+            },
+            {
+                "id": "bd365652-485f-4f8b-a526-075e3f338770",
+                "partyId": "00163e92-2f26-1eda-8df8-4c793fd24939",
+                "role": "591",
+                "roleCategory": "59",
+                "isMain": true,
+                "partyDisplayId": "2026506",
+                "type": "147",
+                "addressId": "00163e92-2f26-1eda-8df8-5bc8855969a9",
+                "determinationMethod": "7",
+                "isInternal": false
+            },
+            {
+                "id": "9f207aa4-da27-4cca-bc63-8f0caadc9d14",
+                "partyId": "00163e92-2f26-1eda-8df8-4c793fd4c939",
+                "role": "10",
+                "roleCategory": "10",
+                "isMain": true,
+                "partyDisplayId": "2026505",
+                "type": "159",
+                "addressId": "20011518-0802-3816-5988-0a01010865f2",
+                "determinationMethod": "5",
+                "isInternal": false
+            },
+            {
+                "id": "cc1480f4-9025-4860-ba7e-e90d606c2e8f",
+                "partyId": "019cb30d-ef8e-799a-a566-8731487ce71d",
+                "role": "46",
+                "roleCategory": "46",
+                "isMain": true,
+                "partyDisplayId": "8000000002",
+                "type": "167",
+                "addressId": "019cb30d-ef8e-799a-a566-9f31487ce71d",
+                "determinationMethod": "3",
+                "isInternal": false
+            },
+            {
+                "id": "9b51689c-6429-4aac-ae2a-fef14183a1bf",
+                "partyId": "00163e92-2f26-1eda-8df8-4c793fd4c939",
+                "role": "8",
+                "roleCategory": "8",
+                "isMain": true,
+                "partyDisplayId": "2026505",
+                "type": "159",
+                "addressId": "20011518-0802-3816-5988-0a01010865f2",
+                "determinationMethod": "5",
+                "isInternal": false
+            }
+        ],
+        "salesTerritories": [
+            {
+                "id": "de19f693-0ea8-4f4f-8ef0-f2d2fb6f3e10",
+                "salesTerritoryId": "019daeca-6212-7000-9288-a87f6f8e72e9",
+                "isMain": true,
+                "salesTerritoryDisplayId": "1",
+                "salesTerritoryDeterminationMethod": "1"
+            }
+        ],
+        "totalValues": {
+            "netAmount": {
+                "content": 21778.5,
+                "currencyCode": "ILS"
+            },
+            "taxAmount": {
+                "content": 0,
+                "currencyCode": "ILS"
+            },
+            "grossAmount": {
+                "content": 21778.5,
+                "currencyCode": "ILS"
+            },
+            "overallDiscount": {
+                "content": 0,
+                "currencyCode": "ILS"
+            },
+            "netWeight": {
+                "content": 0,
+                "uomCode": null,
+                "uomCodeDescription": null
+            },
+            "grossWeight": {
+                "content": 0,
+                "uomCode": null,
+                "uomCodeDescription": null
+            },
+            "volume": {
+                "content": 0,
+                "uomCode": null,
+                "uomCodeDescription": null
+            }
+        },
+        "pricingProcedureName": "PPSTD1",
+        "pricingProcedureIsExternal": false,
+        "priceElements": [
+            {
+                "id": "a56fcac6-ee7d-34a7-b49f-e7aaba057656",
+                "description": "List Price",
+                "stepNumber": 10,
+                "counter": 0,
+                "conditionType": "7PR0",
+                "categoryCode": "PRICES",
+                "originCode": "ITEM_TOTAL",
+                "rateAmount": {
+                    "content": 0,
+                    "currencyCode": ""
+                },
+                "rateBaseQuantity": {
+                    "content": 0,
+                    "uomCode": "",
+                    "uomCodeDescription": null
+                },
+                "calculatedAmount": {
+                    "content": 21778.5,
+                    "currencyCode": "ILS"
+                },
+                "isManuallyChanged": false,
+                "isDeleteEnabled": false,
+                "inactiveReasonCode": "ACTIVE",
+                "isEffective": true,
+                "isPrintable": false,
+                "roundingDifference": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "calculationBasisCode": "QUANTITY",
+                "isGroupedIndicator": false,
+                "isRateDenominatorUpdateEnabled": true,
+                "isRateNumeratorUpdateEnabled": true,
+                "isViewAuthorizationSufficient": true,
+                "isEditAuthorizationSufficient": true
+            },
+            {
+                "id": "7b50a0b0-936a-3cca-9578-9ffbfe896f87",
+                "description": "Total Product Net Value",
+                "stepNumber": 130,
+                "counter": 0,
+                "categoryCode": "NONE",
+                "originCode": "ITEM_TOTAL",
+                "rateAmount": {
+                    "content": 0,
+                    "currencyCode": ""
+                },
+                "rateBaseQuantity": {
+                    "content": 0,
+                    "uomCode": "",
+                    "uomCodeDescription": null
+                },
+                "calculatedAmount": {
+                    "content": 21778.5,
+                    "currencyCode": "ILS"
+                },
+                "isManuallyChanged": false,
+                "isDeleteEnabled": false,
+                "inactiveReasonCode": "ACTIVE",
+                "isEffective": true,
+                "isPrintable": true,
+                "roundingDifference": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "calculationBasisCode": "NONE",
+                "isGroupedIndicator": false,
+                "isRateDenominatorUpdateEnabled": false,
+                "isRateNumeratorUpdateEnabled": false,
+                "isViewAuthorizationSufficient": true,
+                "isEditAuthorizationSufficient": true
+            },
+            {
+                "id": "71fd4ff2-6469-3bca-a497-ea026fd386b4",
+                "description": "Total",
+                "stepNumber": 180,
+                "counter": 0,
+                "categoryCode": "NONE",
+                "originCode": "ITEM_TOTAL",
+                "rateAmount": {
+                    "content": 0,
+                    "currencyCode": ""
+                },
+                "rateBaseQuantity": {
+                    "content": 0,
+                    "uomCode": "",
+                    "uomCodeDescription": null
+                },
+                "calculatedAmount": {
+                    "content": 21778.5,
+                    "currencyCode": "ILS"
+                },
+                "isManuallyChanged": false,
+                "isDeleteEnabled": false,
+                "inactiveReasonCode": "ACTIVE",
+                "isEffective": true,
+                "isPrintable": true,
+                "roundingDifference": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "calculationBasisCode": "NONE",
+                "isGroupedIndicator": false,
+                "isRateDenominatorUpdateEnabled": false,
+                "isRateNumeratorUpdateEnabled": false,
+                "isViewAuthorizationSufficient": true,
+                "isEditAuthorizationSufficient": true
+            },
+            {
+                "id": "3a22d34f-0854-3609-bd97-ba82570563fc",
+                "description": "Product Discounts",
+                "stepNumber": 190,
+                "counter": 0,
+                "categoryCode": "NONE",
+                "originCode": "ITEM_TOTAL",
+                "rateAmount": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "rateBaseQuantity": {
+                    "content": 1,
+                    "uomCode": "EA",
+                    "uomCodeDescription": null
+                },
+                "calculatedAmount": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "isManuallyChanged": false,
+                "isDeleteEnabled": false,
+                "inactiveReasonCode": "ACTIVE",
+                "isEffective": true,
+                "isPrintable": false,
+                "roundingDifference": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "calculationBasisCode": "NONE",
+                "isGroupedIndicator": false,
+                "isRateDenominatorUpdateEnabled": false,
+                "isRateNumeratorUpdateEnabled": false,
+                "isViewAuthorizationSufficient": true,
+                "isEditAuthorizationSufficient": true
+            },
+            {
+                "id": "27eab92a-7fe9-3230-9192-80167bf1faee",
+                "description": "Header Discounts",
+                "stepNumber": 200,
+                "counter": 0,
+                "categoryCode": "NONE",
+                "originCode": "ITEM_TOTAL",
+                "rateAmount": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "rateBaseQuantity": {
+                    "content": 1,
+                    "uomCode": "EA",
+                    "uomCodeDescription": null
+                },
+                "calculatedAmount": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "isManuallyChanged": false,
+                "isDeleteEnabled": false,
+                "inactiveReasonCode": "ACTIVE",
+                "isEffective": true,
+                "isPrintable": false,
+                "roundingDifference": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "calculationBasisCode": "NONE",
+                "isGroupedIndicator": false,
+                "isRateDenominatorUpdateEnabled": false,
+                "isRateNumeratorUpdateEnabled": false,
+                "isViewAuthorizationSufficient": true,
+                "isEditAuthorizationSufficient": true
+            },
+            {
+                "id": "680347ab-61e4-3a30-a4f2-852d7cd787e6",
+                "description": "Total Discounts",
+                "stepNumber": 210,
+                "counter": 0,
+                "categoryCode": "NONE",
+                "originCode": "ITEM_TOTAL",
+                "rateAmount": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "rateBaseQuantity": {
+                    "content": 1,
+                    "uomCode": "EA",
+                    "uomCodeDescription": null
+                },
+                "calculatedAmount": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "isManuallyChanged": false,
+                "isDeleteEnabled": false,
+                "inactiveReasonCode": "ACTIVE",
+                "isEffective": true,
+                "isPrintable": false,
+                "roundingDifference": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "calculationBasisCode": "NONE",
+                "isGroupedIndicator": false,
+                "isRateDenominatorUpdateEnabled": false,
+                "isRateNumeratorUpdateEnabled": false,
+                "isViewAuthorizationSufficient": true,
+                "isEditAuthorizationSufficient": true
+            }
+        ],
+        "pricingStatus": "CALCULATED_SUCCESSFULLY",
+        "lastConsistencyCheckedOn": "2026-05-07T10:35:07.459785467Z",
+        "configuration": {},
+        "referenceStatus": "NOT_STARTED",
+        "accessControlEntries": [
+            "00163e92-2f26-1eda-8df8-4c793fd4c939",
+            "00163e96-06a0-1eda-889a-28de1995878b",
+            "00163e96-06a0-1eda-88c6-833122b8940a",
+            "019cb30d-ef8e-799a-a566-8731487ce71d",
+            "019daeca-6212-7000-9288-a87f6f8e72e9",
+            "00163e96-06a0-1eda-889a-28de1995878b",
+            "89a4a58c-dee9-304a-809b-ecd6b5a70931",
+            "af3c45a0-a7df-38c6-a8fc-8a6f762bfc8c",
+            "dd404fb3-004a-3072-b393-3d09f5af8b95"
+        ]
+    },
+    "beforeImage": {
+        "id": "a126189c-0ed0-4a71-b5db-b60c6881657c",
+        "displayId": "17",
+        "draftMode": false,
+        "documentType": "AG",
+        "lifeCycleStatus": "OPEN",
+        "progressStatus": "OPEN",
+        "progressStatusValidSince": "2026-05-07T10:32:43.761Z",
+        "externalSalesOrderRequestStatus": "NOT_STARTED",
+        "creditWorthinessStatus": "NOT_RELEVANT",
+        "consistencyStatus": "CONSISTENT",
+        "availabilityStatus": "CONFIRMATION_PENDING",
+        "transferStatus": "NOT_STARTED",
+        "documentLanguage": "he",
+        "documentDate": "2026-05-07",
+        "validityPeriod": {
+            "startDate": "2026-05-07",
+            "endDate": "2026-05-09"
+        },
+        "requestedFulfillmentPeriod": {
+            "startDateTime": "2026-05-07T10:32:43.743Z",
+            "endDateTime": "2026-05-08T10:32:43.743Z"
+        },
+        "adminData": {
+            "createdOn": "2026-05-07T10:32:43.761Z",
+            "createdBy": "81d0b8c8-16e4-11f1-9705-2967b1784c9f",
+            "updatedOn": "2026-05-07T10:34:32.345Z",
+            "updatedBy": "81d0b8c8-16e4-11f1-9705-2967b1784c9f"
+        },
+        "account": {
+            "partyId": "00163e92-2f26-1eda-8df8-4c793fd4c939",
+            "partyDisplayId": "2026505",
+            "type": "159",
+            "addressId": "20011518-0802-3816-5988-0a01010865f2",
+            "determinationMethod": "1"
+        },
+        "shipTo": {
+            "partyId": "00163e92-2f26-1eda-8df8-4c793fd4c939",
+            "partyDisplayId": "2026505",
+            "type": "159",
+            "addressId": "20011518-0802-3816-5989-0a01010880e4",
+            "determinationMethod": "5"
+        },
+        "billTo": {
+            "partyId": "00163e92-2f26-1eda-8df8-4c793fd4c939",
+            "partyDisplayId": "2026505",
+            "type": "159",
+            "addressId": "20011518-0802-3816-5988-0a01010865f2",
+            "determinationMethod": "5"
+        },
+        "owner": {
+            "partyId": "00163e96-06a0-1eda-88c6-833122b8940a",
+            "partyDisplayId": "8000000004",
+            "type": "167",
+            "addressId": "00163e96-06a0-1eda-88c6-833122b9540a",
+            "determinationMethod": "7"
+        },
+        "contactOfAccount": {
+            "partyId": "00163e92-2f26-1eda-8df8-4c793fd24939",
+            "partyDisplayId": "2026506",
+            "type": "147",
+            "addressId": "00163e92-2f26-1eda-8df8-5bc8855969a9",
+            "determinationMethod": "7"
+        },
+        "salesEmployee": {
+            "partyId": "019cb30d-ef8e-799a-a566-8731487ce71d",
+            "partyDisplayId": "8000000002",
+            "type": "167",
+            "addressId": "019cb30d-ef8e-799a-a566-9f31487ce71d",
+            "determinationMethod": "3"
+        },
+        "salesUnit": {
+            "partyId": "00163e96-06a0-1eda-889a-28de1995878b",
+            "partyDisplayId": "SO1000",
+            "type": "2174",
+            "addressId": "00163e96-06a0-1eda-889a-28de1992478b",
+            "determinationMethod": "6"
+        },
+        "businessArea": {
+            "salesOrganisationId": "00163e96-06a0-1eda-889a-28de1995878b",
+            "salesOrganisationDisplayId": "SO1000",
+            "salesOrganisationDeterminationMethod": "5",
+            "distributionChannel": "01",
+            "distributionChannelDeterminationMethod": "5",
+            "division": "00",
+            "divisionDeterminationMethod": "1",
+            "salesTerritoryDisplayId": "1",
+            "salesTerritoryId": "019daeca-6212-7000-9288-a87f6f8e72e9",
+            "salesTerritoryDeterminationMethod": "1"
+        },
+        "businessTerms": {
+            "probabilityPercent": 100,
+            "currency": "ILS",
+            "priceDate": "2026-05-07"
+        },
+        "items": [
+            {
+                "id": "e4a09223-d212-4c20-b288-d0599f53f086",
+                "typeCode": "PRODUCT",
+                "displayId": "100",
+                "itemType": "AGN",
+                "progressStatus": "OPEN",
+                "availabilityStatus": "CONFIRMATION_PENDING",
+                "description": "אולם / גן אירועים מעל 1000 איש",
+                "productData": {
+                    "productId": "019d636c-5040-7111-a815-5e693dc41c02",
+                    "productDisplayId": "411",
+                    "productQuantityMeasureUnit": "EA",
+                    "productCategoryId": "019d5dbe-1a94-7004-ba26-c5cecf68f329",
+                    "productCategoryDisplayId": "10",
+                    "originalProductId": "019d636c-5040-7111-a815-5e693dc41c02",
+                    "originalProductDisplayId": "411"
+                },
+                "businessTerms": {
+                    "probabilityPercent": 100,
+                    "currency": "ILS",
+                    "priceDate": "2026-05-07"
+                },
+                "adminData": {
+                    "createdOn": "2026-05-07T10:34:32.345Z",
+                    "createdBy": "81d0b8c8-16e4-11f1-9705-2967b1784c9f",
+                    "updatedOn": "2026-05-07T10:34:32.345Z",
+                    "updatedBy": "81d0b8c8-16e4-11f1-9705-2967b1784c9f"
+                },
+                "scheduleLines": [
+                    {
+                        "id": "f8cdadfa-d58f-4abf-9d4b-34460c93c7a8",
+                        "displayId": "1",
+                        "quantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "originalQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "period": {
+                            "startDateTime": "2026-05-07T10:32:43.743Z",
+                            "endDateTime": "2026-05-08T10:32:43.743Z"
+                        }
+                    }
+                ],
+                "priceElements": [
+                    {
+                        "id": "889df552-fa48-3f91-89b5-8698e5a648cf",
+                        "description": "List Price",
+                        "stepNumber": 10,
+                        "counter": 0,
+                        "conditionType": "7PR0",
+                        "categoryCode": "PRICES",
+                        "originCode": "AUTOMATIC",
+                        "rateAmount": {
+                            "content": 17748,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 17748,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": true,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "QUANTITY",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": true,
+                        "isRateNumeratorUpdateEnabled": true,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    },
+                    {
+                        "id": "70c0c584-6c58-3b89-b749-18bcd1632c0f",
+                        "description": "Total Product Net Value",
+                        "stepNumber": 130,
+                        "counter": 0,
+                        "categoryCode": "NONE",
+                        "originCode": "NONE",
+                        "rateAmount": {
+                            "content": 17748,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 17748,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": false,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "NONE",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": false,
+                        "isRateNumeratorUpdateEnabled": false,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    },
+                    {
+                        "id": "21553bf3-281a-3224-a124-e5d3423bf342",
+                        "description": "Total",
+                        "stepNumber": 180,
+                        "counter": 0,
+                        "categoryCode": "NONE",
+                        "originCode": "NONE",
+                        "rateAmount": {
+                            "content": 17748,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 17748,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": false,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "NONE",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": false,
+                        "isRateNumeratorUpdateEnabled": false,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    },
+                    {
+                        "id": "e28c4f23-2337-3c2c-948b-263c0dc21a91",
+                        "description": "Product Discounts",
+                        "stepNumber": 190,
+                        "counter": 0,
+                        "categoryCode": "NONE",
+                        "originCode": "NONE",
+                        "rateAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": false,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "NONE",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": false,
+                        "isRateNumeratorUpdateEnabled": false,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    },
+                    {
+                        "id": "3d71c352-3ee8-3c7c-a729-ceb740e325a6",
+                        "description": "Header Discounts",
+                        "stepNumber": 200,
+                        "counter": 0,
+                        "categoryCode": "NONE",
+                        "originCode": "NONE",
+                        "rateAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": false,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "NONE",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": false,
+                        "isRateNumeratorUpdateEnabled": false,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    },
+                    {
+                        "id": "2205cf6f-7f94-3aaf-81be-465fa114cb43",
+                        "description": "Total Discounts",
+                        "stepNumber": 210,
+                        "counter": 0,
+                        "categoryCode": "NONE",
+                        "originCode": "NONE",
+                        "rateAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "rateBaseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        },
+                        "calculatedAmount": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "isManuallyChanged": false,
+                        "isDeleteEnabled": false,
+                        "inactiveReasonCode": "ACTIVE",
+                        "isEffective": true,
+                        "isPrintable": false,
+                        "roundingDifference": {
+                            "content": 0,
+                            "currencyCode": "ILS"
+                        },
+                        "calculationBasisCode": "NONE",
+                        "isGroupedIndicator": false,
+                        "isRateDenominatorUpdateEnabled": false,
+                        "isRateNumeratorUpdateEnabled": false,
+                        "isViewAuthorizationSufficient": true,
+                        "isEditAuthorizationSufficient": true
+                    }
+                ],
+                "totalValues": {
+                    "netAmount": {
+                        "content": 17748,
+                        "currencyCode": "ILS"
+                    },
+                    "taxAmount": {
+                        "content": 0,
+                        "currencyCode": "ILS"
+                    },
+                    "grossAmount": {
+                        "content": 17748,
+                        "currencyCode": "ILS"
+                    },
+                    "netPrice": {
+                        "amount": {
+                            "content": 17748,
+                            "currencyCode": "ILS"
+                        },
+                        "baseQuantity": {
+                            "content": 1,
+                            "uomCode": "EA",
+                            "uomCodeDescription": null
+                        }
+                    },
+                    "requestedQuantity": {
+                        "content": 1,
+                        "uomCode": "EA",
+                        "uomCodeDescription": null
+                    },
+                    "confirmedQuantity": {
+                        "content": 0,
+                        "uomCode": "EA",
+                        "uomCodeDescription": null
+                    }
+                },
+                "salesQuoteId": "a126189c-0ed0-4a71-b5db-b60c6881657c",
+                "quantity": {
+                    "content": 1,
+                    "uomCode": "EA",
+                    "uomCodeDescription": null
+                },
+                "referenceStatus": "NOT_STARTED"
+            }
+        ],
+        "parties": [
+            {
+                "id": "3e04d425-56b4-4389-a7a1-6b0c6c99d8b8",
+                "partyId": "00163e92-2f26-1eda-8df8-4c793fd4c939",
+                "role": "1001",
+                "roleCategory": "1",
+                "isMain": true,
+                "partyDisplayId": "2026505",
+                "type": "159",
+                "addressId": "20011518-0802-3816-5988-0a01010865f2",
+                "determinationMethod": "1",
+                "isInternal": false
+            },
+            {
+                "id": "47862bac-685b-45d9-80d1-7963dc0f10eb",
+                "partyId": "00163e96-06a0-1eda-889a-28de1995878b",
+                "role": "44",
+                "roleCategory": "44",
+                "isMain": true,
+                "partyDisplayId": "SO1000",
+                "type": "2174",
+                "addressId": "00163e96-06a0-1eda-889a-28de1992478b",
+                "determinationMethod": "6",
+                "isInternal": false
+            },
+            {
+                "id": "5e8fe79e-59e6-40f4-b828-738a200e0e54",
+                "partyId": "00163e92-2f26-1eda-8df8-4c793fd4c939",
+                "role": "1005",
+                "roleCategory": "5",
+                "isMain": true,
+                "partyDisplayId": "2026505",
+                "type": "159",
+                "addressId": "20011518-0802-3816-5989-0a01010880e4",
+                "determinationMethod": "5",
+                "isInternal": false
+            },
+            {
+                "id": "9aea7779-be0b-42e5-9205-f9dd2ff212e4",
+                "partyId": "00163e96-06a0-1eda-889a-28de1995678b",
+                "role": "2",
+                "roleCategory": "2",
+                "isMain": true,
+                "partyDisplayId": "HQ1000",
+                "type": "2174",
+                "addressId": "00163e96-06a0-1eda-889a-28de1992278b",
+                "determinationMethod": "4",
+                "isInternal": false
+            },
+            {
+                "id": "394fd72f-0d1e-4c7e-b9d5-a74f62b59f5c",
+                "partyId": "00163e96-06a0-1eda-88c6-833122b8940a",
+                "role": "39",
+                "roleCategory": "39",
+                "isMain": true,
+                "partyDisplayId": "8000000004",
+                "type": "167",
+                "addressId": "00163e96-06a0-1eda-88c6-833122b9540a",
+                "determinationMethod": "7",
+                "isInternal": false
+            },
+            {
+                "id": "bd365652-485f-4f8b-a526-075e3f338770",
+                "partyId": "00163e92-2f26-1eda-8df8-4c793fd24939",
+                "role": "591",
+                "roleCategory": "59",
+                "isMain": true,
+                "partyDisplayId": "2026506",
+                "type": "147",
+                "addressId": "00163e92-2f26-1eda-8df8-5bc8855969a9",
+                "determinationMethod": "7",
+                "isInternal": false
+            },
+            {
+                "id": "9f207aa4-da27-4cca-bc63-8f0caadc9d14",
+                "partyId": "00163e92-2f26-1eda-8df8-4c793fd4c939",
+                "role": "10",
+                "roleCategory": "10",
+                "isMain": true,
+                "partyDisplayId": "2026505",
+                "type": "159",
+                "addressId": "20011518-0802-3816-5988-0a01010865f2",
+                "determinationMethod": "5",
+                "isInternal": false
+            },
+            {
+                "id": "cc1480f4-9025-4860-ba7e-e90d606c2e8f",
+                "partyId": "019cb30d-ef8e-799a-a566-8731487ce71d",
+                "role": "46",
+                "roleCategory": "46",
+                "isMain": true,
+                "partyDisplayId": "8000000002",
+                "type": "167",
+                "addressId": "019cb30d-ef8e-799a-a566-9f31487ce71d",
+                "determinationMethod": "3",
+                "isInternal": false
+            },
+            {
+                "id": "9b51689c-6429-4aac-ae2a-fef14183a1bf",
+                "partyId": "00163e92-2f26-1eda-8df8-4c793fd4c939",
+                "role": "8",
+                "roleCategory": "8",
+                "isMain": true,
+                "partyDisplayId": "2026505",
+                "type": "159",
+                "addressId": "20011518-0802-3816-5988-0a01010865f2",
+                "determinationMethod": "5",
+                "isInternal": false
+            }
+        ],
+        "salesTerritories": [
+            {
+                "id": "de19f693-0ea8-4f4f-8ef0-f2d2fb6f3e10",
+                "salesTerritoryId": "019daeca-6212-7000-9288-a87f6f8e72e9",
+                "isMain": true,
+                "salesTerritoryDisplayId": "1",
+                "salesTerritoryDeterminationMethod": "1"
+            }
+        ],
+        "totalValues": {
+            "netAmount": {
+                "content": 17748,
+                "currencyCode": "ILS"
+            },
+            "taxAmount": {
+                "content": 0,
+                "currencyCode": "ILS"
+            },
+            "grossAmount": {
+                "content": 17748,
+                "currencyCode": "ILS"
+            },
+            "overallDiscount": {
+                "content": 0,
+                "currencyCode": "ILS"
+            },
+            "netWeight": {
+                "content": 0,
+                "uomCode": null,
+                "uomCodeDescription": null
+            },
+            "grossWeight": {
+                "content": 0,
+                "uomCode": null,
+                "uomCodeDescription": null
+            },
+            "volume": {
+                "content": 0,
+                "uomCode": null,
+                "uomCodeDescription": null
+            }
+        },
+        "pricingProcedureName": "PPSTD1",
+        "pricingProcedureIsExternal": false,
+        "priceElements": [
+            {
+                "id": "a56fcac6-ee7d-34a7-b49f-e7aaba057656",
+                "description": "List Price",
+                "stepNumber": 10,
+                "counter": 0,
+                "conditionType": "7PR0",
+                "categoryCode": "PRICES",
+                "originCode": "ITEM_TOTAL",
+                "rateAmount": {
+                    "content": 17748,
+                    "currencyCode": "ILS"
+                },
+                "rateBaseQuantity": {
+                    "content": 1,
+                    "uomCode": "EA",
+                    "uomCodeDescription": null
+                },
+                "calculatedAmount": {
+                    "content": 17748,
+                    "currencyCode": "ILS"
+                },
+                "isManuallyChanged": false,
+                "isDeleteEnabled": false,
+                "inactiveReasonCode": "ACTIVE",
+                "isEffective": true,
+                "isPrintable": false,
+                "roundingDifference": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "calculationBasisCode": "QUANTITY",
+                "isGroupedIndicator": false,
+                "isRateDenominatorUpdateEnabled": true,
+                "isRateNumeratorUpdateEnabled": true,
+                "isViewAuthorizationSufficient": true,
+                "isEditAuthorizationSufficient": true
+            },
+            {
+                "id": "7b50a0b0-936a-3cca-9578-9ffbfe896f87",
+                "description": "Total Product Net Value",
+                "stepNumber": 130,
+                "counter": 0,
+                "categoryCode": "NONE",
+                "originCode": "ITEM_TOTAL",
+                "rateAmount": {
+                    "content": 17748,
+                    "currencyCode": "ILS"
+                },
+                "rateBaseQuantity": {
+                    "content": 1,
+                    "uomCode": "EA",
+                    "uomCodeDescription": null
+                },
+                "calculatedAmount": {
+                    "content": 17748,
+                    "currencyCode": "ILS"
+                },
+                "isManuallyChanged": false,
+                "isDeleteEnabled": false,
+                "inactiveReasonCode": "ACTIVE",
+                "isEffective": true,
+                "isPrintable": true,
+                "roundingDifference": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "calculationBasisCode": "NONE",
+                "isGroupedIndicator": false,
+                "isRateDenominatorUpdateEnabled": false,
+                "isRateNumeratorUpdateEnabled": false,
+                "isViewAuthorizationSufficient": true,
+                "isEditAuthorizationSufficient": true
+            },
+            {
+                "id": "71fd4ff2-6469-3bca-a497-ea026fd386b4",
+                "description": "Total",
+                "stepNumber": 180,
+                "counter": 0,
+                "categoryCode": "NONE",
+                "originCode": "ITEM_TOTAL",
+                "rateAmount": {
+                    "content": 17748,
+                    "currencyCode": "ILS"
+                },
+                "rateBaseQuantity": {
+                    "content": 1,
+                    "uomCode": "EA",
+                    "uomCodeDescription": null
+                },
+                "calculatedAmount": {
+                    "content": 17748,
+                    "currencyCode": "ILS"
+                },
+                "isManuallyChanged": false,
+                "isDeleteEnabled": false,
+                "inactiveReasonCode": "ACTIVE",
+                "isEffective": true,
+                "isPrintable": true,
+                "roundingDifference": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "calculationBasisCode": "NONE",
+                "isGroupedIndicator": false,
+                "isRateDenominatorUpdateEnabled": false,
+                "isRateNumeratorUpdateEnabled": false,
+                "isViewAuthorizationSufficient": true,
+                "isEditAuthorizationSufficient": true
+            },
+            {
+                "id": "3a22d34f-0854-3609-bd97-ba82570563fc",
+                "description": "Product Discounts",
+                "stepNumber": 190,
+                "counter": 0,
+                "categoryCode": "NONE",
+                "originCode": "ITEM_TOTAL",
+                "rateAmount": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "rateBaseQuantity": {
+                    "content": 1,
+                    "uomCode": "EA",
+                    "uomCodeDescription": null
+                },
+                "calculatedAmount": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "isManuallyChanged": false,
+                "isDeleteEnabled": false,
+                "inactiveReasonCode": "ACTIVE",
+                "isEffective": true,
+                "isPrintable": false,
+                "roundingDifference": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "calculationBasisCode": "NONE",
+                "isGroupedIndicator": false,
+                "isRateDenominatorUpdateEnabled": false,
+                "isRateNumeratorUpdateEnabled": false,
+                "isViewAuthorizationSufficient": true,
+                "isEditAuthorizationSufficient": true
+            },
+            {
+                "id": "27eab92a-7fe9-3230-9192-80167bf1faee",
+                "description": "Header Discounts",
+                "stepNumber": 200,
+                "counter": 0,
+                "categoryCode": "NONE",
+                "originCode": "ITEM_TOTAL",
+                "rateAmount": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "rateBaseQuantity": {
+                    "content": 1,
+                    "uomCode": "EA",
+                    "uomCodeDescription": null
+                },
+                "calculatedAmount": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "isManuallyChanged": false,
+                "isDeleteEnabled": false,
+                "inactiveReasonCode": "ACTIVE",
+                "isEffective": true,
+                "isPrintable": false,
+                "roundingDifference": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "calculationBasisCode": "NONE",
+                "isGroupedIndicator": false,
+                "isRateDenominatorUpdateEnabled": false,
+                "isRateNumeratorUpdateEnabled": false,
+                "isViewAuthorizationSufficient": true,
+                "isEditAuthorizationSufficient": true
+            },
+            {
+                "id": "680347ab-61e4-3a30-a4f2-852d7cd787e6",
+                "description": "Total Discounts",
+                "stepNumber": 210,
+                "counter": 0,
+                "categoryCode": "NONE",
+                "originCode": "ITEM_TOTAL",
+                "rateAmount": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "rateBaseQuantity": {
+                    "content": 1,
+                    "uomCode": "EA",
+                    "uomCodeDescription": null
+                },
+                "calculatedAmount": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "isManuallyChanged": false,
+                "isDeleteEnabled": false,
+                "inactiveReasonCode": "ACTIVE",
+                "isEffective": true,
+                "isPrintable": false,
+                "roundingDifference": {
+                    "content": 0,
+                    "currencyCode": "ILS"
+                },
+                "calculationBasisCode": "NONE",
+                "isGroupedIndicator": false,
+                "isRateDenominatorUpdateEnabled": false,
+                "isRateNumeratorUpdateEnabled": false,
+                "isViewAuthorizationSufficient": true,
+                "isEditAuthorizationSufficient": true
+            }
+        ],
+        "pricingStatus": "CALCULATED_SUCCESSFULLY",
+        "lastConsistencyCheckedOn": "2026-05-07T10:34:32.492Z",
+        "configuration": {},
+        "referenceStatus": "NOT_STARTED",
+        "accessControlEntries": [
+            "00163e92-2f26-1eda-8df8-4c793fd4c939",
+            "00163e96-06a0-1eda-889a-28de1995878b",
+            "00163e96-06a0-1eda-88c6-833122b8940a",
+            "019cb30d-ef8e-799a-a566-8731487ce71d",
+            "019daeca-6212-7000-9288-a87f6f8e72e9",
+            "00163e96-06a0-1eda-889a-28de1995878b",
+            "89a4a58c-dee9-304a-809b-ecd6b5a70931",
+            "af3c45a0-a7df-38c6-a8fc-8a6f762bfc8c",
+            "dd404fb3-004a-3072-b393-3d09f5af8b95"
+        ]
+    },
+    "dataContext": null
+}
