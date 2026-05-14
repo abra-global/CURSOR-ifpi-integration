@@ -1,3 +1,28 @@
-git init
-git add .
-git commit -m "Initial commit: SAP V2 to B1 Integration"
+steps:
+  # 1. בניית ה-Docker Image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/sap-b1-adapter', '.']
+
+  # 2. דחיפת ה-Image למחסן של גוגל (Artifact Registry)
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/$PROJECT_ID/sap-b1-adapter']
+
+  # 3. פריסה ל-Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'sap-integration-service'
+      - '--image'
+      - 'gcr.io/$PROJECT_ID/sap-b1-adapter'
+      - '--region'
+      - 'europe-west1' # האזור שבחרת קודם
+      - '--platform'
+      - 'managed'
+      - '--port'
+      - '3000' # חשוב! ה-Dockerfile שלך חושף את פורט 3000
+      - '--allow-unauthenticated' # מאפשר גישה חיצונית (אם זה API ציבורי)
+
+images:
+  - 'gcr.io/$PROJECT_ID/sap-b1-adapter'
