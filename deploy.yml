@@ -8,7 +8,7 @@ steps:
     args: ['push', 'gcr.io/$PROJECT_ID/sap-b1-adapter']
 
   # 3. פריסה ל-Cloud Run
-  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk' 
     entrypoint: gcloud
     args:
       - 'run'
