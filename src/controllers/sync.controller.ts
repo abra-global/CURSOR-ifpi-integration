@@ -170,12 +170,20 @@ export async function syncQuotes(req: Request, res: Response): Promise<void> {
       });
       return;
     }
+// 1. יוצרים את האובייקט הממופה הראשוני (השורה שהתפספסה!)
+const initialMapped = mapQuoteToB1OrderPayload(quote, { cardCode });
 
-    let mapped = mapQuoteToB1OrderPayload(quote, { cardCode });
-    mapped = {
-      ...mapped,
-      DocumentLines: await resolveOrderLinesItemCodes(mapped.DocumentLines ?? [])
-    };
+// 2. מקבלים את השורות מהשירות על בסיס המיפוי הראשוני
+const resolvedLines = await resolveOrderLinesItemCodes(initialMapped.DocumentLines ?? []);
+
+// 3. בונים את האובייקט הסופי ומבטיחים ל-TypeScript שאין undefined ב-LineNum
+const mapped = {
+  ...initialMapped,
+  DocumentLines: resolvedLines.map((line, index) => ({
+    ...line,
+    LineNum: line.LineNum ?? index
+  }))
+};
 
     console.log("[Sync Quotes] Mapped payload before SAP B1 (after item resolution)", JSON.stringify(mapped, null, 2));
 
