@@ -3,49 +3,46 @@ name: Deploy to GCP Cloud Run
 on:
   push:
     branches:
-      - main  # מפעיל את התהליך בכל פעם שיש push ל-main
+      - main
 
 env:
-  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }} # מזהה הפרויקט שלך בגוגל (יוגדר ב-GitHub Secrets)
-  REGION: europe-west1                      # האזור שבחרת בגוגל קלאוד
-  SERVICE_NAME: sap-integration-service     # השם שיינתן לשירות ב-Cloud Run
-  IMAGE_NAME: sap-b1-adapter                # שם האימג' שייבנה
+  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+  REGION: europe-west1
+  SERVICE_NAME: sap-integration-service
+  REPO_NAME: sap-b1-adapter                  # השם של המאגר שיצרת ב-Artifact Registry
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-    # 1. משיכת הקוד מה-Repository
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/actions/checkout@v4
 
-    # 2. התחברות לגוגל קלאוד באמצעות מפתח אבטחה
     - name: Authenticate to Google Cloud
       uses: google-github-actions/auth@v2
       with:
-        credentials_json: ${{ secrets.GCP_SA_KEY }} # מפתח האבטחה (יוגדר ב-GitHub Secrets)
+        credentials_json: ${{ secrets.GCP_SA_KEY }}
 
-    # 3. הגדרת ה-Cloud SDK במכונה של GitHub
     - name: Set up Cloud SDK
       uses: google-github-actions/setup-gcloud@v2
 
-    # 4. הגדרת Docker לעבודה מול גוגל קלאוד
+    # הגדרת Docker לעבודה מול השרת החדש (Artifact Registry) באזור אירופה
     - name: Configure Docker for GCP
       run: |
-        gcloud auth configure-docker --quiet
+        gcloud auth configure-docker europe-west1-docker.pkg.dev --quiet
 
-    # 5. בניית ה-Docker Image ודחיפתו ל-Google Container Registry
+    # בנייה ודחיפה לכתובת החדשה של ה-Artifact Registry
     - name: Build and Push Docker Image
       run: |
-        docker build -t gcr.io/${{ env.PROJECT_ID }}/${{ env.IMAGE_NAME }}:${{ github.sha }} .
-        docker push gcr.io/${{ env.PROJECT_ID }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+        docker build -t europe-west1-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPO_NAME }}/${{ env.REPO_NAME }}:${{ github.sha }} .
+        docker push europe-west1-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPO_NAME }}/${{ env.REPO_NAME }}:${{ github.sha }}
 
-    # 6. פריסה ל-Cloud Run וחשיפת פורט 3000
+    # פריסה ל-Cloud Run מהמיקום החדש
     - name: Deploy to Cloud Run
       run: |
         gcloud run deploy ${{ env.SERVICE_NAME }} \
-          --image gcr.io/${{ env.PROJECT_ID }}/${{ env.IMAGE_NAME }}:${{ github.sha }} \
+          --image europe-west1-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPO_NAME }}/${{ env.REPO_NAME }}:${{ github.sha }} \
           --region ${{ env.REGION }} \
           --platform managed \
           --port 3000 \
